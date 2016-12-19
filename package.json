@@ -1,0 +1,22 @@
+{
+	"name": "fantech-test",
+	"version": "1.0.0",
+	"description": "fantech-test",
+	"main": "index.html",
+	"directories": {
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"fantech-test"
+	],
+	"author": "Rinat Kashapov",
+	"license": "MIT",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-sass": "^2.3.2",
+		"jshint": "^2.9.3",
+		"bootstrap":"^3.3.5"
+	}
+}
