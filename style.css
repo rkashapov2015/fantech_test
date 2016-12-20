@@ -1,3 +1,25 @@
-.headerline {
+
+@font-face {
+  font-family: FiraSans Regular;
+  src: url(FiraSans3106/OTF/FiraSans-Regular.otf) format("opentype");
+}
+body {
+  position: relative;
+}
+.navbar-yw {
+	border-top: 16px solid #ffbf00;
+	border-bottom: none;
+	background: #fff;
+	box-shadow: 0px 1px 8px #000;
+	line-height: 0;
+	font-family: FiraSans Regular;
+}
+.navbar-center {
+	float: none;
+	display: inline-block;
+}
+.navbar-yw .navbar-nav.navbar-center>.active>a, .navbar-yw .navbar-nav.navbar-center>.active>a:hover {
 	background: #ffbf00;
+	color: #fff;
+	text-transform: uppercase;
 }
